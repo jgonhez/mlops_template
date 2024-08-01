@@ -1,4 +1,4 @@
-from support import simple
+from src.mylibs.support import simple
 
 def test_simple():
-    asset 5 == simple(3,2)
+    assert 5 == simple(3,2)
