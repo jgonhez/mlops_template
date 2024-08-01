@@ -4,5 +4,5 @@ env:
 install:
 	pip install -r requirements.txt
 
-test:
-	python -m pytest -vv --cov=main --cov=mylib test_*.py
+testing:
+	python -m pytest -vv --cov=src/mylibs test/test_*.py
