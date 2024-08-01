@@ -6,3 +6,4 @@ click
 fire
 dvc
 dvc_gdrive
+dvc_s3

@@ -1,5 +1,6 @@
 [core]
     autostage = true
     remote = storage
-['remote "storage"']
-    url = gdrive://1_OZ6WIQEoJbzRfBGzaZb8OIolWFSaQFv
+['remote "origin"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/jgonhez/mlops_template.s3
