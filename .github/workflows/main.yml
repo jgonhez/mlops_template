@@ -1,0 +1,12 @@
+name: python template for regular projects
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    septs:
+    - uses: actions/cheackout@v3
+    
+    - name: Install dependencies
+      run: make install
+
+    
