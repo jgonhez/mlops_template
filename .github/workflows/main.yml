@@ -3,7 +3,8 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    septs:
+    
+    steps:
     - uses: actions/cheackout@v3
     
     - name: Install dependencies
