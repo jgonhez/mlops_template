@@ -4,3 +4,5 @@ pytest
 pytest-cov
 click
 fire
+dvc
+dvc_gdrive
